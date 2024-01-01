@@ -1,0 +1,25 @@
+input {
+    box-sizing: border-box;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+  .filtro {
+    border-bottom: 1px solid #555;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .opcoes-filtro {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  .opcoes-filtro div {
+    flex: 1 1 0;
+  }
+
+  /*flex: 1 1 0; pode ser interpretado como "permita
+   que o item cresça e encolha proporcionalmente ao espaço 
+   disponível, e não forneça um tamanho inicial". Isso é útil 
+   em layouts flexíveis onde você deseja que os itens se ajustem 
+   dinamicamente ao tamanho do contêiner pai.*/

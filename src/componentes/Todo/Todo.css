@@ -1,0 +1,33 @@
+p {
+    margin: 10px 0;
+  }
+button {
+    background-color: #333974;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+    margin-right: 10px;
+}
+button:hover {
+    opacity: 1;
+}
+.complete {
+    background-color: #5cb85c;
+}
+.remove {
+    background-color: #d953af;
+}
+.todo {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
